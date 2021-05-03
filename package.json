@@ -1,0 +1,12 @@
+{
+  "name": "com.unity.seonghwan.shadergraph-enhancer",
+  "displayName": "Shader Graph Enhancer",
+  "version": "1.0.0",
+  "dependencies": {
+    "com.unity.shadergraph": "10.3.1"
+  },
+  "author": {
+    "name": "Seonghwan",
+    "url": "https://github.com/seonghwan-dev"
+  }
+}
