@@ -4,8 +4,8 @@ Simple shortcut system into unity shader graph without modifying package by hack
 Reference - [Unity Forum Thread](https://forum.unity.com/threads/keyboard-shortcuts-are-an-essential-and-missing-feature.852154/) by DigitalSalmon.
 
 ### Installation
-this repo can be imported as open unity package.
-add https://github.com/seonghwan-dev/ShaderGraphEnhancer.git in package manager.
+this repo can be imported as open unity package.  
+add https://github.com/seonghwan-dev/ShaderGraphEnhancer.git in package manager.  
 
 ### Uninstallation
 use menuitem `Tools/SGE/Clean Uninstall`
