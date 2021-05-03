@@ -11,7 +11,7 @@ add https://github.com/seonghwan-dev/ShaderGraphEnhancer.git in package manager.
 use menuitem `Tools/SGE/Clean Uninstall`
 
 ### Trouble shooting
-run menuitem 'Tools/SGE/Force Resolve`
+run menuitem `Tools/SGE/Force Resolve`
 
 ### Why should I use in this way?
 You don't have to. this is an expedient to avoid modifying the Shader Graph packge in every project. We can mofidy the original package caches in appdata, but it's local way so its not fit. I tried to implement this feature without editing original package by hooking several functions in loaded assembly on unity editor but it requires lots of things to consider. 
