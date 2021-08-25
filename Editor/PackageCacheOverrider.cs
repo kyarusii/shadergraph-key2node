@@ -28,7 +28,7 @@ namespace ShaderGraphEnhancer
 				}
 				else
 				{
-					Debug.Log(directoryInfo.Name);
+					// Debug.Log(directoryInfo.Name);
 				}
 			}
 
@@ -113,7 +113,7 @@ namespace ShaderGraphEnhancer
 			}
 		}
 
-		[MenuItem("Tools/SGE/Force Resolve")]
+		[MenuItem("Tools/ShaderGraph Key2Node/Force Resolve")]
 		static void ForceInstall()
 		{
 			bool yes = EditorUtility.DisplayDialog("Force Resolve", "Resolve ShaderGraph Enhancer",
@@ -181,7 +181,7 @@ namespace ShaderGraphEnhancer
 			};
 		}
 
-		[MenuItem("Tools/SGE/Clean Uninstall")]
+		[MenuItem("Tools/ShaderGraph Key2Node/Clean Uninstall")]
 		static void CleanRemove()
 		{
 			bool yes = EditorUtility.DisplayDialog("Uninstall", "Uninstalling ShaderGraph Enhancer package",

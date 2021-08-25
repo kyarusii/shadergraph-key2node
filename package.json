@@ -1,12 +1,29 @@
 {
-  "name": "com.unity.seonghwan.shadergraph-enhancer",
-  "displayName": "Shader Graph Enhancer",
+  "name": "kr.seonghwan.shadergraph-key2node",
+  "displayName": "Shader Graph Key To Node",
   "version": "1.0.0",
+  "unity": "2019.3",
+  "description": "Foundation package allows to use node shorcut in hacky-style.",
+  "hompage": "https://github.com/seonghwan-dev/shadergraph-key2node",
+  "bugs": {
+    "url": "https://github.com/seonghwan-dev/shadergraph-key2node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:seonghwan-dev/shadergraph-key2node.git"
+  },
+  "license":"MIT",
   "dependencies": {
     "com.unity.shadergraph": "10.3.1"
   },
   "author": {
     "name": "Seonghwan",
     "url": "https://github.com/seonghwan-dev"
-  }
+  },
+  "keywords": [
+    "shadergraph",
+    "shortcut",
+    "utility",
+    "unity"
+  ]
 }
